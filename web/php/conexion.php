@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect ("localhost", "usuariogamer", "gamerchallenge");
+    $link = mysqli_connect ("db4free.net:3306", "usuariogamer", "gamerchallenge");
 	mysqli_select_db( $link, "gamercha_chat2" );
     if(mysqli_connect_errno())
     {
