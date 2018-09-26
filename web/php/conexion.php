@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect ("localhost", "", "");
+    $link = mysqli_connect ("localhost", "usuariogamer", "gamerchallenge");
 	mysqli_select_db( $link, "gamercha_chat2" );
     if(mysqli_connect_errno())
     {
