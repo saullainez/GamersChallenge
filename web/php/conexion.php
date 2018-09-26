@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect ("198.15.102.82", "root", "");
+    $link = mysqli_connect ("prueba-gamers.herokuapp.com", "root", "");
 	mysqli_select_db( $link, "gamercha_chat2" );
     if(mysqli_connect_errno())
     {
